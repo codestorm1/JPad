@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931F423913BEAB5D00FB3303 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F423813BEAB5D00FB3303 /* UIKit.framework */; };
+		931F423B13BEAB5D00FB3303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F423A13BEAB5D00FB3303 /* Foundation.framework */; };
+		931F423D13BEAB5D00FB3303 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F423C13BEAB5D00FB3303 /* CoreGraphics.framework */; };
+		931F424313BEAB5D00FB3303 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 931F424113BEAB5D00FB3303 /* InfoPlist.strings */; };
+		931F424613BEAB5D00FB3303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F424513BEAB5D00FB3303 /* main.m */; };
+		931F424913BEAB5D00FB3303 /* JPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F424813BEAB5D00FB3303 /* JPadAppDelegate.m */; };
+		931F424C13BEAB5D00FB3303 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931F424A13BEAB5D00FB3303 /* MainWindow.xib */; };
+		931F425313BEAB5D00FB3303 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F423813BEAB5D00FB3303 /* UIKit.framework */; };
+		931F425413BEAB5D00FB3303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F423A13BEAB5D00FB3303 /* Foundation.framework */; };
+		931F425513BEAB5D00FB3303 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F423C13BEAB5D00FB3303 /* CoreGraphics.framework */; };
+		931F425D13BEAB5D00FB3303 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 931F425B13BEAB5D00FB3303 /* InfoPlist.strings */; };
+		931F426013BEAB5E00FB3303 /* JPadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 931F425F13BEAB5E00FB3303 /* JPadTests.h */; };
+		931F426213BEAB5E00FB3303 /* JPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F426113BEAB5E00FB3303 /* JPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		931F425613BEAB5D00FB3303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 931F422B13BEAB5D00FB3303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931F423313BEAB5D00FB3303;
+			remoteInfo = JPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		931F423413BEAB5D00FB3303 /* JPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		931F423813BEAB5D00FB3303 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		931F423A13BEAB5D00FB3303 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		931F423C13BEAB5D00FB3303 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		931F424013BEAB5D00FB3303 /* JPad-Info.plist */ = {isa = PBXFileReference; path = "JPad-Info.plist"; sourceTree = "<group>"; };
+		931F424213BEAB5D00FB3303 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		931F424413BEAB5D00FB3303 /* JPad-Prefix.pch */ = {isa = PBXFileReference; path = "JPad-Prefix.pch"; sourceTree = "<group>"; };
+		931F424513BEAB5D00FB3303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		931F424713BEAB5D00FB3303 /* JPadAppDelegate.h */ = {isa = PBXFileReference; path = JPadAppDelegate.h; sourceTree = "<group>"; };
+		931F424813BEAB5D00FB3303 /* JPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPadAppDelegate.m; sourceTree = "<group>"; };
+		931F424B13BEAB5D00FB3303 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		931F425213BEAB5D00FB3303 /* JPadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		931F425A13BEAB5D00FB3303 /* JPadTests-Info.plist */ = {isa = PBXFileReference; path = "JPadTests-Info.plist"; sourceTree = "<group>"; };
+		931F425C13BEAB5D00FB3303 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		931F425E13BEAB5D00FB3303 /* JPadTests-Prefix.pch */ = {isa = PBXFileReference; path = "JPadTests-Prefix.pch"; sourceTree = "<group>"; };
+		931F425F13BEAB5E00FB3303 /* JPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPadTests.h; sourceTree = "<group>"; };
+		931F426113BEAB5E00FB3303 /* JPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		931F423113BEAB5D00FB3303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F423913BEAB5D00FB3303 /* UIKit.framework in Frameworks */,
+				931F423B13BEAB5D00FB3303 /* Foundation.framework in Frameworks */,
+				931F423D13BEAB5D00FB3303 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F424E13BEAB5D00FB3303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F425313BEAB5D00FB3303 /* UIKit.framework in Frameworks */,
+				931F425413BEAB5D00FB3303 /* Foundation.framework in Frameworks */,
+				931F425513BEAB5D00FB3303 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931F422913BEAB5D00FB3303 = {
+			isa = PBXGroup;
+			children = (
+				931F423E13BEAB5D00FB3303 /* JPad */,
+				931F425813BEAB5D00FB3303 /* JPadTests */,
+				931F423713BEAB5D00FB3303 /* Frameworks */,
+				931F423513BEAB5D00FB3303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		931F423513BEAB5D00FB3303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				931F423413BEAB5D00FB3303 /* JPad.app */,
+				931F425213BEAB5D00FB3303 /* JPadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931F423713BEAB5D00FB3303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931F423813BEAB5D00FB3303 /* UIKit.framework */,
+				931F423A13BEAB5D00FB3303 /* Foundation.framework */,
+				931F423C13BEAB5D00FB3303 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		931F423E13BEAB5D00FB3303 /* JPad */ = {
+			isa = PBXGroup;
+			children = (
+				931F424713BEAB5D00FB3303 /* JPadAppDelegate.h */,
+				931F424813BEAB5D00FB3303 /* JPadAppDelegate.m */,
+				931F424A13BEAB5D00FB3303 /* MainWindow.xib */,
+				931F423F13BEAB5D00FB3303 /* Supporting Files */,
+			);
+			path = JPad;
+			sourceTree = "<group>";
+		};
+		931F423F13BEAB5D00FB3303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				931F424013BEAB5D00FB3303 /* JPad-Info.plist */,
+				931F424113BEAB5D00FB3303 /* InfoPlist.strings */,
+				931F424413BEAB5D00FB3303 /* JPad-Prefix.pch */,
+				931F424513BEAB5D00FB3303 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		931F425813BEAB5D00FB3303 /* JPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				931F425F13BEAB5E00FB3303 /* JPadTests.h */,
+				931F426113BEAB5E00FB3303 /* JPadTests.m */,
+				931F425913BEAB5D00FB3303 /* Supporting Files */,
+			);
+			path = JPadTests;
+			sourceTree = "<group>";
+		};
+		931F425913BEAB5D00FB3303 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				931F425A13BEAB5D00FB3303 /* JPadTests-Info.plist */,
+				931F425B13BEAB5D00FB3303 /* InfoPlist.strings */,
+				931F425E13BEAB5D00FB3303 /* JPadTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		931F423313BEAB5D00FB3303 /* JPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931F426513BEAB5E00FB3303 /* Build configuration list for PBXNativeTarget "JPad" */;
+			buildPhases = (
+				931F423013BEAB5D00FB3303 /* Sources */,
+				931F423113BEAB5D00FB3303 /* Frameworks */,
+				931F423213BEAB5D00FB3303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPad;
+			productName = JPad;
+			productReference = 931F423413BEAB5D00FB3303 /* JPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		931F425113BEAB5D00FB3303 /* JPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931F426813BEAB5E00FB3303 /* Build configuration list for PBXNativeTarget "JPadTests" */;
+			buildPhases = (
+				931F424D13BEAB5D00FB3303 /* Sources */,
+				931F424E13BEAB5D00FB3303 /* Frameworks */,
+				931F424F13BEAB5D00FB3303 /* Resources */,
+				931F425013BEAB5D00FB3303 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931F425713BEAB5D00FB3303 /* PBXTargetDependency */,
+			);
+			name = JPadTests;
+			productName = JPadTests;
+			productReference = 931F425213BEAB5D00FB3303 /* JPadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		931F422B13BEAB5D00FB3303 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 931F422E13BEAB5D00FB3303 /* Build configuration list for PBXProject "JPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 931F422913BEAB5D00FB3303;
+			productRefGroup = 931F423513BEAB5D00FB3303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				931F423313BEAB5D00FB3303 /* JPad */,
+				931F425113BEAB5D00FB3303 /* JPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		931F423213BEAB5D00FB3303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F424313BEAB5D00FB3303 /* InfoPlist.strings in Resources */,
+				931F424C13BEAB5D00FB3303 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F424F13BEAB5D00FB3303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F425D13BEAB5D00FB3303 /* InfoPlist.strings in Resources */,
+				931F426013BEAB5E00FB3303 /* JPadTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		931F425013BEAB5D00FB3303 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		931F423013BEAB5D00FB3303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F424613BEAB5D00FB3303 /* main.m in Sources */,
+				931F424913BEAB5D00FB3303 /* JPadAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931F424D13BEAB5D00FB3303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931F426213BEAB5E00FB3303 /* JPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		931F425713BEAB5D00FB3303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931F423313BEAB5D00FB3303 /* JPad */;
+			targetProxy = 931F425613BEAB5D00FB3303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		931F424113BEAB5D00FB3303 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931F424213BEAB5D00FB3303 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		931F424A13BEAB5D00FB3303 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931F424B13BEAB5D00FB3303 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		931F425B13BEAB5D00FB3303 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931F425C13BEAB5D00FB3303 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		931F426313BEAB5E00FB3303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		931F426413BEAB5E00FB3303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		931F426613BEAB5E00FB3303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPad/JPad-Prefix.pch";
+				INFOPLIST_FILE = "JPad/JPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		931F426713BEAB5E00FB3303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPad/JPad-Prefix.pch";
+				INFOPLIST_FILE = "JPad/JPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		931F426913BEAB5E00FB3303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JPad.app/JPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPadTests/JPadTests-Prefix.pch";
+				INFOPLIST_FILE = "JPadTests/JPadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		931F426A13BEAB5E00FB3303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JPad.app/JPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPadTests/JPadTests-Prefix.pch";
+				INFOPLIST_FILE = "JPadTests/JPadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		931F422E13BEAB5D00FB3303 /* Build configuration list for PBXProject "JPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931F426313BEAB5E00FB3303 /* Debug */,
+				931F426413BEAB5E00FB3303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931F426513BEAB5E00FB3303 /* Build configuration list for PBXNativeTarget "JPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931F426613BEAB5E00FB3303 /* Debug */,
+				931F426713BEAB5E00FB3303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		931F426813BEAB5E00FB3303 /* Build configuration list for PBXNativeTarget "JPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931F426913BEAB5E00FB3303 /* Debug */,
+				931F426A13BEAB5E00FB3303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 931F422B13BEAB5D00FB3303 /* Project object */;
+}
